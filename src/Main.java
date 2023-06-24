@@ -61,10 +61,10 @@ public class OpenStudentRecord extends JFrame implements ActionListener {
         panelHeader.add(labelOne);
         this.add(panelHeader);
 
-        JPanel mainPanel = new JPanel();
+        JPanel mainPanel = new JPanel();dsafadsf
         mainPanel.setBackground(Color.cyan);
         mainPanel.setBounds(0, 50, 500, 450);
-        
+
         mainPanel.add(yearLevel);
 
         JTextField yearLevelField = new JTextField(fileContents[9]);
