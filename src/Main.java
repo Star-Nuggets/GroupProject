@@ -103,23 +103,18 @@ public class OpenStudentRecord extends JFrame implements ActionListener {
         JLabel firstName = new JLabel("First Name:");
         firstName.setBounds(10, 100, 80, 25);
         mainPanel.add(firstName);
-
-        JTextField firstNameField = new JTextField(fileContents[11]);
-        firstNameField.setBounds(110, 100, 200, 25);
+hgdf110, 100, 200, 25);
         firstNameField.setEditable(false);
 //        firstNameField.setText(String.valueOf(fileContents[11]));
         mainPanel.add(firstNameField);
 
         //Middle Name ----------------------------------------------------------
-        JLabel middleName = new JLabel("Middle Name:");
+        Jdfsaf
         middleName.setBounds(10, 130, 80, 25);
         mainPanel.add(middleName);
 
         JTextField middleNameField = new JTextField(fileContents[13]);
-        middleNameField.setBounds(110, 130, 200, 25);
-        middleNameField.setEditable(false);
-//        middleNameField.setText(String.valueOf(fileContents[13]));
-        mainPanel.add(middleNameField);
+        mhfds
 
         //Last Name ------------------------------------------------------------
         JLabel lastName = new JLabel("Last Name:");
