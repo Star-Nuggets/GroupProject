@@ -51,7 +51,7 @@ public class OpenStudentRecord extends JFrame implements ActionListener {
         JPanel panelHeader = new JPanel();
         panelHeader.setBackground(Color.cyan);
         panelHeader.setBounds(0, 0, 500, 50);
-        panelHeader.setLayout(new BorderLayout());
+        panelHeader.setLayout(new Bordergfdsgfdsayout());
 
         JLabel labelOne = new JLabel("Student Record");
         labelOne.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 16));
