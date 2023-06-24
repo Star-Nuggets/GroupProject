@@ -64,33 +64,7 @@ public class OpenStudentRecord extends JFrame implements ActionListener {
         JPanel mainPanel = new JPanel();
         mainPanel.setBackground(Color.cyan);
         mainPanel.setBounds(0, 50, 500, 450);
-        mainPanel.setLayout(null);
-
-        //Student Number -------------------------------------------------------
-        JLabel studentNumber = new JLabel("Student No:");
-        studentNumber.setBounds(10, 10, 80, 25);
-        mainPanel.add(studentNumber);
-
-        JTextField studentNumberField = new JTextField(fileContents[5]);
-        studentNumberField.setBounds(110, 10, 200, 25);
-        studentNumberField.setEditable(false);
-//        studentNumberField.setText(String.valueOf(fileContents[5]));
-        mainPanel.add(studentNumberField);
-
-        //Degree ---------------------------------------------------------------
-        JLabel degree = new JLabel("Degree:");
-        degree.setBounds(10, 40, 80, 25);
-        mainPanel.add(degree);
-
-        JTextField degreeField = new JTextField(fileContents[7]);
-        degreeField.setBounds(110, 40, 200, 25);
-        degreeField.setEditable(false);
-//        degreeField.setText(String.valueOf(fileContents[7]));
-        mainPanel.add(degreeField);
-
-        //Year Level -----------------------------------------------------------
-        JLabel yearLevel = new JLabel("Year Level:");
-        yearLevel.setBounds(10, 70, 80, 25);
+        
         mainPanel.add(yearLevel);
 
         JTextField yearLevelField = new JTextField(fileContents[9]);
