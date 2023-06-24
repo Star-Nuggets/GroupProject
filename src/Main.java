@@ -99,7 +99,7 @@ public class OpenStudentRecord extends JFrame implements ActionListener {
 //        yearLevelField.setText(String.valueOf(fileContents[9]));
         mainPanel.add(yearLevelField);
 
-        //First Name -----------------------------------------------------------
+        //First Name ---------fdasfds--------------------------------------------------
         JLabel firstName = new JLabel("First Name:");
         firstName.setBounds(10, 100, 80, 25);
         mainPanel.add(firstName);
